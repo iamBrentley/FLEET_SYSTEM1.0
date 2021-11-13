@@ -76,9 +76,9 @@ namespace FLEET_SYSTEM1._0
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            SignUpPage signup = new SignUpPage();
-            signup.Show();
-            this.Close();
+            LoginPage login = new LoginPage();
+            login.Show();
+            this.Dispose();
         }
 
         public static HomeWindow home = new HomeWindow();

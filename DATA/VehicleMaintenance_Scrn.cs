@@ -164,8 +164,7 @@ namespace FLEET_SYSTEM1._0
 
         private void btnSite_LIM_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\WILDatabase.mdf;Integrated Security=True;Connect Timeout=30");
-
+            buttonSeize();
             try
             {
                 con.Open();

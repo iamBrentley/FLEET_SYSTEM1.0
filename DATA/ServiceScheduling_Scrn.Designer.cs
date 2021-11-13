@@ -50,6 +50,10 @@
             this.serviceDescriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.scheduleDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gridCompletedService = new System.Windows.Forms.DataGridView();
+            this.vehicleScheduleIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vehicleIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.serviceDescriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scheduleDateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnSchedule_Daily = new System.Windows.Forms.Button();
@@ -58,10 +62,6 @@
             this.btnSchedule_Monthly = new System.Windows.Forms.Button();
             this.vehicleServicingScheduleTableAdapter1 = new FLEET_SYSTEM1._0.WILDatabaseDataSet2TableAdapters.VehicleServicingScheduleTableAdapter();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.vehicleScheduleIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vehicleIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.serviceDescriptionDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.scheduleDateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleServicingScheduleBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wILDatabaseDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridCallService)).BeginInit();
@@ -94,7 +94,7 @@
             this.btnSchedule.FlatAppearance.BorderSize = 0;
             this.btnSchedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSchedule.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSchedule.Location = new System.Drawing.Point(19, 382);
+            this.btnSchedule.Location = new System.Drawing.Point(19, 385);
             this.btnSchedule.Name = "btnSchedule";
             this.btnSchedule.Size = new System.Drawing.Size(75, 23);
             this.btnSchedule.TabIndex = 2;
@@ -270,6 +270,34 @@
             this.gridCompletedService.Size = new System.Drawing.Size(459, 173);
             this.gridCompletedService.TabIndex = 14;
             // 
+            // vehicleScheduleIDDataGridViewTextBoxColumn1
+            // 
+            this.vehicleScheduleIDDataGridViewTextBoxColumn1.DataPropertyName = "VehicleScheduleID";
+            this.vehicleScheduleIDDataGridViewTextBoxColumn1.HeaderText = "VehicleScheduleID";
+            this.vehicleScheduleIDDataGridViewTextBoxColumn1.Name = "vehicleScheduleIDDataGridViewTextBoxColumn1";
+            this.vehicleScheduleIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // vehicleIDDataGridViewTextBoxColumn1
+            // 
+            this.vehicleIDDataGridViewTextBoxColumn1.DataPropertyName = "VehicleID";
+            this.vehicleIDDataGridViewTextBoxColumn1.HeaderText = "VehicleID";
+            this.vehicleIDDataGridViewTextBoxColumn1.Name = "vehicleIDDataGridViewTextBoxColumn1";
+            this.vehicleIDDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // serviceDescriptionDataGridViewTextBoxColumn1
+            // 
+            this.serviceDescriptionDataGridViewTextBoxColumn1.DataPropertyName = "ServiceDescription";
+            this.serviceDescriptionDataGridViewTextBoxColumn1.HeaderText = "ServiceDescription";
+            this.serviceDescriptionDataGridViewTextBoxColumn1.Name = "serviceDescriptionDataGridViewTextBoxColumn1";
+            this.serviceDescriptionDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // scheduleDateDataGridViewTextBoxColumn1
+            // 
+            this.scheduleDateDataGridViewTextBoxColumn1.DataPropertyName = "ScheduleDate";
+            this.scheduleDateDataGridViewTextBoxColumn1.HeaderText = "ScheduleDate";
+            this.scheduleDateDataGridViewTextBoxColumn1.Name = "scheduleDateDataGridViewTextBoxColumn1";
+            this.scheduleDateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -359,34 +387,6 @@
             this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // vehicleScheduleIDDataGridViewTextBoxColumn1
-            // 
-            this.vehicleScheduleIDDataGridViewTextBoxColumn1.DataPropertyName = "VehicleScheduleID";
-            this.vehicleScheduleIDDataGridViewTextBoxColumn1.HeaderText = "VehicleScheduleID";
-            this.vehicleScheduleIDDataGridViewTextBoxColumn1.Name = "vehicleScheduleIDDataGridViewTextBoxColumn1";
-            this.vehicleScheduleIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // vehicleIDDataGridViewTextBoxColumn1
-            // 
-            this.vehicleIDDataGridViewTextBoxColumn1.DataPropertyName = "VehicleID";
-            this.vehicleIDDataGridViewTextBoxColumn1.HeaderText = "VehicleID";
-            this.vehicleIDDataGridViewTextBoxColumn1.Name = "vehicleIDDataGridViewTextBoxColumn1";
-            this.vehicleIDDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // serviceDescriptionDataGridViewTextBoxColumn1
-            // 
-            this.serviceDescriptionDataGridViewTextBoxColumn1.DataPropertyName = "ServiceDescription";
-            this.serviceDescriptionDataGridViewTextBoxColumn1.HeaderText = "ServiceDescription";
-            this.serviceDescriptionDataGridViewTextBoxColumn1.Name = "serviceDescriptionDataGridViewTextBoxColumn1";
-            this.serviceDescriptionDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // scheduleDateDataGridViewTextBoxColumn1
-            // 
-            this.scheduleDateDataGridViewTextBoxColumn1.DataPropertyName = "ScheduleDate";
-            this.scheduleDateDataGridViewTextBoxColumn1.HeaderText = "ScheduleDate";
-            this.scheduleDateDataGridViewTextBoxColumn1.Name = "scheduleDateDataGridViewTextBoxColumn1";
-            this.scheduleDateDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // ServiceScheduling_Scrn
             // 
